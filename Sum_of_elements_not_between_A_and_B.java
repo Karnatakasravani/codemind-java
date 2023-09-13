@@ -15,11 +15,11 @@ public class A
         int s=0;
         for(int i=0;i<n;i++)
         {
-            if(arr[i]<a|| arr[i]>b)
+            if(arr[i]<a || arr[i]>b)
             {
                 s+=arr[i];
             }
         }
-        System.out.print(s);
+        System.out.println(s);
     }
 }
